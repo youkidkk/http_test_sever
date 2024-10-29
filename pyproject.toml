@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = []
+description = ""
+name = "http_test_sever"
+readme = "README.md"
+version = "1.0.0"
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.10.0"
+pytest = "^8.3.3"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

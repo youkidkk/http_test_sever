@@ -1,0 +1,13 @@
+/.venv
+/.mypy_cache
+/tmp/**
+/**/__pycache__
+/**/.ropeproject
+/poetry.lock
+
+/build
+/dist
+/*.spec
+/.VSCodeCounter
+
+!/**/.gitkeep
